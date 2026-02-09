@@ -27,9 +27,10 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */
-    baseURL: 'https://regres.in/',
+    baseURL: 'https://reqres.in/',
     extraHTTPHeaders: {
       Accept: 'application/json',
+      'x-api-key': 'pro_b32eeea929fc319d374c2d8d7393bf687cfe20d70f56209775befbeeef9699d7'
     },
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
